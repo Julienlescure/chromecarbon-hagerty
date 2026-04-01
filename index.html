@@ -58,7 +58,7 @@ body{background:#0d0d0d;font-family:var(--fB);color:var(--cream);}
 
 /* ── COVER ── */
 .cover-img{
-  height:210px;
+  min-height:220px;height:auto;
   background:linear-gradient(160deg,rgba(15,22,8,0.85),rgba(10,15,5,0.95)),
              url('https://images.squarespace-cdn.com/content/v1/65d1f5d8107d7d1115352d5c/5caca536-1892-4be9-a542-c87c45920819/Group+22+%281%29.png') center/cover no-repeat;
   display:flex;flex-direction:column;justify-content:space-between;padding:28px 24px;
@@ -290,6 +290,7 @@ body{background:#0d0d0d;font-family:var(--fB);color:var(--cream);}
 }
 
 #nav{display:none;}
+#stage{display:none;}
 @media(min-width:768px){#nav{display:flex;}#stage{display:flex;}.deck-mobile-wrap{display:none;}}
 .deck-mobile-wrap{display:block;}
 
