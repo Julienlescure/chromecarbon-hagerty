@@ -79,6 +79,7 @@ body{background:#0d0d0d;font-family:var(--fB);color:var(--cream);}
 .kpi-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px;}
 .kpi-card{background:var(--brown-card);border:1px solid rgba(107,124,46,0.2);border-radius:8px;padding:18px 16px 15px;position:relative;overflow:hidden;}
 .kpi-card::after{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--olive);}
+.kpi-tall{min-height:130px;display:flex;flex-direction:column;justify-content:flex-start;}
 .kpi-num{font-family:var(--fD);font-size:clamp(33px,5vw,45px);font-weight:600;color:var(--olive-light);line-height:1;letter-spacing:-0.02em;margin-bottom:6px;}
 .kpi-lbl{font-size:18px;color:var(--cream-dim);line-height:1.5;}
 .kpi-lbl strong{color:var(--cream);font-weight:600;}
@@ -464,9 +465,9 @@ body{background:#0d0d0d;font-family:var(--fB);color:var(--cream);}
     <div class="kpi-card"><div class="kpi-num">$40.75</div><div class="kpi-lbl">Average donation &mdash; well above typical micro-donation benchmarks</div></div>
     <div class="kpi-card"><div class="kpi-num">1,440</div><div class="kpi-lbl">Average miles acted on per contribution &mdash; in line with typical collector car usage</div></div>
     <div class="kpi-card"><div class="kpi-num">109%</div><div class="kpi-lbl">Contribution rate among enrolled members (622&nbsp;/&nbsp;571)</div></div>
-    <div class="kpi-card"><div class="kpi-num">37</div><div class="kpi-lbl">Members who contributed at least twice &mdash; genuine programme loyalty</div></div>
-    <div class="kpi-card"><div class="kpi-num">9</div><div class="kpi-lbl">Members with 3+ contributions &mdash; highly engaged enthusiasts</div></div>
-    <div class="kpi-card"><div class="kpi-num">$100+</div><div class="kpi-lbl"><strong>8</strong> over $100 &nbsp;&middot;&nbsp; <strong>3</strong> over $400 &nbsp;&middot;&nbsp; <strong>1</strong> over $1,000</div></div>
+    <div class="kpi-card kpi-tall"><div class="kpi-num">37</div><div class="kpi-lbl">Members who contributed at least twice &mdash; genuine programme loyalty</div></div>
+    <div class="kpi-card kpi-tall"><div class="kpi-num">9</div><div class="kpi-lbl">Members with 3+ contributions &mdash; highly engaged enthusiasts</div></div>
+    <div class="kpi-card kpi-tall"><div class="kpi-num">$100+</div><div class="kpi-lbl"><strong>8 members</strong> donated over $100<br><strong>3 members</strong> donated over $400<br><strong>1 member</strong> donated over $1,000</div></div>
   </div>
   <div class="logo-bar"><img src="logo-cc-white.png" alt="CC"></div>
 </div>
@@ -589,7 +590,7 @@ body{background:#0d0d0d;font-family:var(--fB);color:var(--cream);}
   <div class="logo-bar"><img src="logo-cc-white.png" alt="CC"></div>
   <div class="feat-wrap vid-layout" id="fw-s9">
     <div class="feat-left">
-      <div class="feat-card"><h3>Personal Dashboard</h3><ul><li>At-a-glance summary: total trees, miles logged, CO&sup2; acted on</li><li>Current rank on both leaderboards</li><li>Referral status: invitations sent, friends joined, bonuses earned</li></ul></div>
+      <div class="feat-card"><h3>Personal Dashboard</h3><ul><li>At-a-glance summary: key figures for miles logged and CO&sup2; acted on</li><li>Current rank on both leaderboards</li><li>Referral status: invitations sent, friends joined, bonuses earned</li></ul></div>
       <div class="feat-card"><h3>Virtual Garage</h3><ul><li>Save vehicles with make, model, year &amp; MPG</li><li>Saved vehicles pre-fill the calculator automatically &mdash; no re-entry needed</li><li>Supports multiple vehicles per member for accurate per-car tracking</li></ul></div>
       <div class="feat-card"><h3>Contribution History</h3><ul><li>Full log of past contributions: date, miles, CO&sup2; and donation amount</li><li>Easy one-click access to log a new trip or yearly mileage</li><li>Makes impact visible over time, reinforcing long-term commitment</li></ul></div>
     </div>
@@ -708,9 +709,9 @@ body{background:#0d0d0d;font-family:var(--fB);color:var(--cream);}
     <div class="kpi-card"><div class="kpi-num">$40.75</div><div class="kpi-lbl">Average donation &mdash; well above typical micro-donation benchmarks</div></div>
     <div class="kpi-card"><div class="kpi-num">1,440</div><div class="kpi-lbl">Average miles acted on per contribution &mdash; in line with typical collector car usage</div></div>
     <div class="kpi-card"><div class="kpi-num">109%</div><div class="kpi-lbl">Contribution rate among enrolled members (622&nbsp;/&nbsp;571)</div></div>
-    <div class="kpi-card"><div class="kpi-num">37</div><div class="kpi-lbl">Members who contributed at least twice &mdash; genuine programme loyalty</div></div>
-    <div class="kpi-card"><div class="kpi-num">9</div><div class="kpi-lbl">Members with 3+ contributions &mdash; highly engaged enthusiasts</div></div>
-    <div class="kpi-card"><div class="kpi-num">$100+</div><div class="kpi-lbl"><strong>8</strong> over $100 &nbsp;&middot;&nbsp; <strong>3</strong> over $400 &nbsp;&middot;&nbsp; <strong>1</strong> over $1,000</div></div>
+    <div class="kpi-card kpi-tall"><div class="kpi-num">37</div><div class="kpi-lbl">Members who contributed at least twice &mdash; genuine programme loyalty</div></div>
+    <div class="kpi-card kpi-tall"><div class="kpi-num">9</div><div class="kpi-lbl">Members with 3+ contributions &mdash; highly engaged enthusiasts</div></div>
+    <div class="kpi-card kpi-tall"><div class="kpi-num">$100+</div><div class="kpi-lbl"><strong>8 members</strong> donated over $100<br><strong>3 members</strong> donated over $400<br><strong>1 member</strong> donated over $1,000</div></div>
   </div>
   <div class="logo-bar"><img src="logo-cc-white.png" alt="CC"></div>
 </div>
@@ -829,7 +830,7 @@ body{background:#0d0d0d;font-family:var(--fB);color:var(--cream);}
   <div class="slide-h1">A Logged-In Home for<br>Every Enthusiast</div>
   <div class="feat-wrap">
     <div class="feat-left">
-      <div class="feat-card"><h3>Personal Dashboard</h3><ul><li>At-a-glance summary: total trees, miles logged, CO&sup2; acted on</li><li>Current rank on both leaderboards</li><li>Referral status: invitations sent, friends joined, bonuses earned</li></ul></div>
+      <div class="feat-card"><h3>Personal Dashboard</h3><ul><li>At-a-glance summary: key figures for miles logged and CO&sup2; acted on</li><li>Current rank on both leaderboards</li><li>Referral status: invitations sent, friends joined, bonuses earned</li></ul></div>
       <div class="feat-card"><h3>Virtual Garage</h3><ul><li>Save vehicles with make, model, year &amp; MPG</li><li>Saved vehicles pre-fill the calculator automatically &mdash; no re-entry needed</li><li>Supports multiple vehicles per member for accurate per-car tracking</li></ul></div>
       <div class="feat-card"><h3>Contribution History</h3><ul><li>Full log of past contributions: date, miles, CO&sup2; and donation amount</li><li>Easy one-click access to log a new trip or yearly mileage</li><li>Makes impact visible over time, reinforcing long-term commitment</li></ul></div>
     </div>
